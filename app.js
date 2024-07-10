@@ -114,3 +114,37 @@
 // // ---------------x--------------------
 // var check3 = age > 40 ? "kafi bara hai" : age == 30 ? "30 ke brabar hai" : age > 30 ? "30 se bara hai" : "30 se chota hai" ;
 // console.log(check3);
+
+// ----------------------{ PROMISE }---------------------
+// var burger = "Available";
+// var promise = new Promise(function (resolve, reject) {
+//   if (burger === "Available") {
+//     resolve("burger hai");
+//   } else {
+//     reject("burger nahi hai");
+//   }
+// });
+// console.log(promise);
+// promise
+//   .then((data) => {
+//     console.log("Resolve ===>", data);
+//   })
+//   .catch((error) => {
+//     console.log("Error ===>", error);
+//   });
+// // ---------------x--------------------
+// let promise1 = new Promise((resolve, reject) => {
+//   if (true) {
+//     setTimeout(() => {
+//       resolve("its resolve");
+//     }, 2000);
+//   } else {
+//     reject("its not resolve");
+//   }
+// });
+// console.log(promise1);
+// promise1.then((data) => {
+//   console.log("resolve ===>" , data);
+// }).catch((error) => {
+//   console.log("error ===>" ,error);
+// })
