@@ -76,6 +76,7 @@
 // console.log(student2);
 
 // ----------------------{OBJECT DESTRUCTURING}---------------------
+
 // var student = {
 //   name: "Ubaid",
 //   roll: 215783,
@@ -92,8 +93,13 @@
 // console.log(name);
 // console.log(sch);
 // console.log(roll);
+// // ---------------x--------------------
+// let arr = ["Ubaid","Aslam","Sheikh"];
+// let [name1,name2,name3] = arr
+// console.log(name3);
 
 // ----------------------{TERNARY OPERATORS}---------------------
+
 // // ternary opr m (|| and &&) bhi lga sakhte hen
 // var age = 20;
 // if (age > 30) {
@@ -148,3 +154,35 @@
 // }).catch((error) => {
 //   console.log("error ===>" ,error);
 // })
+
+// ----------------------{ FUNCTION EXPRESSION }---------------------
+
+// function funct(){
+//     console.log("hello");
+// }
+// funct();
+
+// let func = function () {
+//     console.log("world");
+// }
+// func();
+
+// ----------------------{ ARROW FUNCTION }---------------------
+
+// function hello() {}
+
+// let hello = (name1,name2) => {
+// console.log(`Hello ${name1} ${name2}`);
+// }
+// hello("Ubaid","Aslam");
+
+let arrfunc = _ => {
+    return "Ubaid"
+}
+console.log(arrfunc);
+
+let arrfunc2 = _ => "Ubaid"
+console.log(arrfunc2);
+
+// ----------------------{  }---------------------
+
